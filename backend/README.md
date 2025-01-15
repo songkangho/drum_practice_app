@@ -27,7 +27,7 @@ PDF나 이미지로 된 음악 악보를 처리하기 위한 **Score App**의 �
 
 To set up the backend, follow these steps:  
 
-### **1. Clone the Repository | 레포지토리 클론**
+### **1. Clone the Repository**
 ```bash
 git clone https://github.com/songkangho/score_app.git
 cd music-score-backend
