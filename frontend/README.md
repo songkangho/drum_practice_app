@@ -30,7 +30,7 @@ PDF로 악보를 불러와서 저장하고, 메트로놈 및 BPM 설정과 오�
 
 2. Clone the repository:
     bash
-    git clone https://github.com/your-username/music-score-app.git
+    git clone https://github.com/songkangho/score_app.git
     cd music-score-app
 
 3. Install dependencies:
