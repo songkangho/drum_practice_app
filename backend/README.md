@@ -73,13 +73,13 @@ Returns a JSON object containing:
 다음 내용을 포함하는 JSON 객체를 반환합니다:
 
 - **`status`**: Request status (`success` or `error`).  
-  요청 상태 (`success` 또는 `error`)  
+  
 - **`rectangles`**: A list of detected staff line bounding boxes. Each bounding box contains:  
-  감지된 오선보 경계 상자의 리스트. 각 상자는 다음을 포함합니다:
+  
   - `top_left`: `[x, y]` coordinates of the top-left corner.  
-    좌상단 좌표 `[x, y]`  
+      
   - `bottom_right`: `[x, y]` coordinates of the bottom-right corner.  
-    우하단 좌표 `[x, y]`  
+     
 
 ---
 
