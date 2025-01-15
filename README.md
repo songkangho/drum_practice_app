@@ -7,8 +7,10 @@
 - **docs/**: Documentation, screenshots, and diagrams
 
 # Features
-- 실시간 업데이트
-- 여러 디바이스와 호환가능한 디자인
+- 악보의 오선보 인식
+- 메트로놈 기능
+- 메트로놈의 주기와 bpm에 맞는 현재 오선보 진행 상태 표시
+- pdf 저장/불러오기
 
 ## How to Run
 ### Frontend
@@ -16,3 +18,6 @@ See the [frontend/README.md](frontend/README.md).
 
 ### Backend
 See the [backend/README.md](backend/README.md).
+
+## example video
+[operating video] (https://www.youtube.com/watch?v=qgYMwniyH2I)
