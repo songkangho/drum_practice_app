@@ -48,19 +48,22 @@ PDF로 악보를 불러와서 저장하고, 메트로놈 및 BPM 설정과 오�
 - store Management : json file
 
 ## Project Structure
-lib/
-├── main.dart                 # Entry point of the application
-├── screens/                  # UI screens for PDF management and score viewing
-│   ├── pdf_grid_screen.dart  # Screen to display the list of imported PDFs
-│   ├── score_view_screen.dart # Screen to view and interact with a selected score
-├── services/                 # Logic and business services
-│   ├── api_service.dart      # Handles communication with the backend (if any)
-│   ├── metronome_service.dart # Metronome logic for managing BPM and playback
-│   ├── pdf_image_service.dart # Logic to convert PDF pages to images for rendering
-│   ├── storage_service.dart  # Handles local data storage (e.g., configurations, files)
-├── utils/                    # Utility functions (common helpers)
-.gitignore                    # Files and folders to ignore in Git
-pubspec.yaml                  # Flutter dependencies and metadata
+
+- **lib/**  
+  - **main.dart**: Entry point of the application  
+  - **screens/**: UI screens for PDF management and score viewing  
+    - **pdf_grid_screen.dart**: Screen to display the list of imported PDFs  
+    - **score_view_screen.dart**: Screen to view and interact with a selected score  
+  - **services/**: Logic and business services  
+    - **api_service.dart**: Handles communication with the backend (if any)  
+    - **metronome_service.dart**: Metronome logic for managing BPM and playback  
+    - **pdf_image_service.dart**: Logic to convert PDF pages to images for rendering  
+    - **storage_service.dart**: Handles local data storage (e.g., configurations, files)  
+  - **utils/**: Utility functions (common helpers)  
+
+- **.gitignore**: Files and folders to ignore in Git  
+- **pubspec.yaml**: Flutter dependencies and metadata
+
 
 ## How It Works
 1. PDF Import
