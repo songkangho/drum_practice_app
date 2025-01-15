@@ -1,0 +1,26 @@
+# 빌드 폴더 제외
+build/
+
+# Flutter 환경 관련 파일 제외
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+
+# IDE 설정 파일 제외
+.idea/
+*.iml
+
+# OS별 플랫폼 코드 제외
+android/
+ios/
+macos/
+linux/
+web/
+windows/
+
+# 잠금 파일 제외
+pubspec.lock
+
+# 캐시 및 디버그 파일 제외
+.metadata
+temp_*
