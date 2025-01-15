@@ -1,0 +1,9 @@
+# 가상환경 폴더 제외
+venv/
+
+# Python 캐시 파일 제외
+__pycache__/
+*.pyc
+
+# 임시 폴더 제외
+temp/
